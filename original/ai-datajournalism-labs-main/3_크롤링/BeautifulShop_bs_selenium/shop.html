@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><title>Beautiful Shop</title>
+<style>
+body{font-family:'NanumGothic','Noto Sans CJK KR',sans-serif;margin:0;background:#faf7f2;color:#222}
+header{background:#2d3a4a;color:#fff;padding:18px 32px;font-size:26px;font-weight:bold}
+header .banner{float:right;background:#ffd43b;color:#2d3a4a;font-size:20px;padding:6px 16px;border-radius:20px;margin-top:2px}
+header span{font-size:15px;font-weight:normal;opacity:.8;margin-left:10px}
+ul{list-style:none;display:flex;flex-wrap:wrap;gap:20px;padding:28px 32px;margin:0}
+li{background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08);padding:18px;width:200px}
+.emoji{font-size:54px;text-align:center;background:#f1ece4;border-radius:8px;padding:8px 0}
+h2{font-size:18px;margin:12px 0 6px}
+.price{color:#d9480f;font-weight:bold;font-size:17px}
+.sale{display:inline-block;background:#e03131;color:#fff;font-size:12px;padding:2px 7px;border-radius:4px;margin-left:6px}
+a{color:#1971c2;font-size:13px}
+#more{display:block;margin:0 32px 28px;padding:12px 28px;font-size:16px;border:0;border-radius:8px;background:#2d3a4a;color:#fff;cursor:pointer}
+</style></head>
+<body>
+<header>Beautiful Shop <span>오늘의 추천 상품</span><b class="banner">🎉 전 상품 절반 세일!</b></header>
+<ul id="products">
+  <li class="item"><div class="emoji">☕</div><h2 class="name">머그컵</h2><p class="price">12,000원</p><a href="/item/1">자세히 보기</a></li>
+  <li class="item"><div class="emoji">🧣</div><h2 class="name">목도리</h2><p class="price">25,000원<span class="sale">SALE</span></p><a href="/item/2">자세히 보기</a></li>
+  <li class="item"><div class="emoji">📒</div><h2 class="name">노트</h2><p class="price">3,500원</p><a href="/item/3">자세히 보기</a></li>
+  <li class="item"><div class="emoji">🕯️</div><h2 class="name">향초</h2><p class="price">18,000원<span class="sale">SALE</span></p><a href="/item/4">자세히 보기</a></li>
+</ul>
+<button id="more">상품 더보기 ▼</button>
+<script>
+document.getElementById('more').onclick=function(){
+  setTimeout(function(){
+    var ul=document.getElementById('products');
+    ul.insertAdjacentHTML('beforeend','<li class="item"><div class="emoji">🧦</div><h2 class="name">양말</h2><p class="price">5,000원</p><a href="/item/5">자세히 보기</a></li><li class="item"><div class="emoji">🌵</div><h2 class="name">미니 화분</h2><p class="price">9,900원</p><a href="/item/6">자세히 보기</a></li><li class="item"><div class="emoji">👜</div><h2 class="name">에코백</h2><p class="price">15,000원</p><a href="/item/7">자세히 보기</a></li><li class="item"><div class="emoji">🥤</div><h2 class="name">텀블러</h2><p class="price">22,000원</p><a href="/item/8">자세히 보기</a></li>');
+    document.getElementById('more').style.display='none';
+  },800);
+};
+</script>
+</body></html>
