@@ -1,0 +1,18 @@
+[노드 순서]
+Schedule Trigger (Minutes, 5)
+ → HTTP Request (GET)
+     http://openapi.seoul.go.kr:8088/{인증키}/json/citydata_ppltn/1/5/광화문·덕수궁
+ → IF : AREA_CONGEST_LVL  is equal to  붐빔
+        (테스트할 땐 '보통'으로 바꿔 알림이 오는지 먼저 확인)
+        혼잡 단계: 여유 · 보통 · 약간 붐빔 · 붐빔
+ → OpenAI : n8n_속보_프롬프트.txt 내용 붙여 넣기
+ → Gmail / Discord / Telegram 중 하나
+
+AREA_CONGEST_LVL 위치는 HTTP Request의 실행 결과(Execute step) 화면에서 직접 확인해 끌어다 놓으세요.
+
+[n8n 실행]
+node -v        # v20.19 ~ v24
+npx n8n
+http://localhost:5678
+
+⚠️ 워크플로를 JSON으로 내보내 공유할 때 API 키·인증키가 들어 있지 않은지 확인
