@@ -1,0 +1,30 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+secrets.json
+credentials.json
+
+# Local caches and generated output
+__pycache__/
+.pytest_cache/
+node_modules/
+.venv/
+venv/
+*.pyc
+*.log
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Generated files (keep packaged examples committed)
+output/
+exports/
+recordings/
+transcripts/
