@@ -1,0 +1,28 @@
+﻿file,topic,duration,style,fictional,publication_status
+sample_bike_30s_standard.txt,따릉이,30,정통 뉴스,TRUE,HOLD
+sample_bike_30s_daily.txt,따릉이,30,생활 밀착,TRUE,HOLD
+sample_bike_30s_explainer.txt,따릉이,30,데이터 해설,TRUE,HOLD
+sample_bike_60s_standard.txt,따릉이,60,정통 뉴스,TRUE,HOLD
+sample_bike_60s_daily.txt,따릉이,60,생활 밀착,TRUE,HOLD
+sample_bike_60s_explainer.txt,따릉이,60,데이터 해설,TRUE,HOLD
+sample_bike_90s_standard.txt,따릉이,90,정통 뉴스,TRUE,HOLD
+sample_bike_90s_daily.txt,따릉이,90,생활 밀착,TRUE,HOLD
+sample_bike_90s_explainer.txt,따릉이,90,데이터 해설,TRUE,HOLD
+sample_lunch_30s_standard.txt,직장인 점심값,30,정통 뉴스,TRUE,HOLD
+sample_lunch_30s_daily.txt,직장인 점심값,30,생활 밀착,TRUE,HOLD
+sample_lunch_30s_explainer.txt,직장인 점심값,30,데이터 해설,TRUE,HOLD
+sample_lunch_60s_standard.txt,직장인 점심값,60,정통 뉴스,TRUE,HOLD
+sample_lunch_60s_daily.txt,직장인 점심값,60,생활 밀착,TRUE,HOLD
+sample_lunch_60s_explainer.txt,직장인 점심값,60,데이터 해설,TRUE,HOLD
+sample_lunch_90s_standard.txt,직장인 점심값,90,정통 뉴스,TRUE,HOLD
+sample_lunch_90s_daily.txt,직장인 점심값,90,생활 밀착,TRUE,HOLD
+sample_lunch_90s_explainer.txt,직장인 점심값,90,데이터 해설,TRUE,HOLD
+sample_culture_30s_standard.txt,공연 관람 20대 비율,30,정통 뉴스,TRUE,HOLD
+sample_culture_30s_daily.txt,공연 관람 20대 비율,30,생활 밀착,TRUE,HOLD
+sample_culture_30s_explainer.txt,공연 관람 20대 비율,30,데이터 해설,TRUE,HOLD
+sample_culture_60s_standard.txt,공연 관람 20대 비율,60,정통 뉴스,TRUE,HOLD
+sample_culture_60s_daily.txt,공연 관람 20대 비율,60,생활 밀착,TRUE,HOLD
+sample_culture_60s_explainer.txt,공연 관람 20대 비율,60,데이터 해설,TRUE,HOLD
+sample_culture_90s_standard.txt,공연 관람 20대 비율,90,정통 뉴스,TRUE,HOLD
+sample_culture_90s_daily.txt,공연 관람 20대 비율,90,생활 밀착,TRUE,HOLD
+sample_culture_90s_explainer.txt,공연 관람 20대 비율,90,데이터 해설,TRUE,HOLD
