@@ -1,0 +1,47 @@
+name: Build Windows NewsStudio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - ".github/workflows/windows-build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: src/go.mod
+          cache: false
+      - name: Run Go tests
+        working-directory: src
+        run: go test ./...
+      - name: Build Windows EXE
+        working-directory: src
+        run: go build -trimpath -ldflags="-H=windowsgui" -o ../DataJournalism_NewsStudio.exe .
+      - name: Package app and examples
+        shell: pwsh
+        run: |
+          $dst = "package/News_choisunghwan"
+          New-Item -ItemType Directory -Force -Path $dst | Out-Null
+          Copy-Item "DataJournalism_NewsStudio.exe" $dst
+          Copy-Item "01_뉴스스튜디오_실행.bat" $dst
+          Copy-Item "README_시작하기.txt" $dst
+          foreach ($folder in @("demo", "samples", "docs", "tools", "original")) {
+            Copy-Item $folder "$dst/$folder" -Recurse
+          }
+      - name: Upload Windows package
+        uses: actions/upload-artifact@v4
+        with:
+          name: News_choisunghwan_Windows
+          path: package/News_choisunghwan/
+          retention-days: 30
