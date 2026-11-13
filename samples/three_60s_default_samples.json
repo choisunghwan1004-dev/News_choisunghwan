@@ -1,0 +1,229 @@
+[
+  {
+    "story": "bike",
+    "duration": 60,
+    "style": "daily",
+    "topic": "따릉이",
+    "topicTitle": "따릉이 이용 건수 변화",
+    "styleName": "생활 밀착",
+    "values": {
+      "rides": 45000000,
+      "ratio": 1.5
+    },
+    "stat": "4,500만|건",
+    "subtitle": "3년 전 대비 1.5배",
+    "charts": [
+      {
+        "name": "3년 전",
+        "value": 30000000,
+        "label": "약 3,000만"
+      },
+      {
+        "name": "현재",
+        "value": 45000000,
+        "label": "4,500만"
+      }
+    ],
+    "oneLine": "한 줄 정리. 따릉이 이용은 3년 전의 1.5배라는 가상 통계입니다.",
+    "segments": [
+      {
+        "start": 0,
+        "end": 8,
+        "scene": "시민과 자전거가 있는 거리",
+        "caption": "따릉이",
+        "narration": "출퇴근길에 보이는 따릉이, 얼마나 많이 이용할까요?"
+      },
+      {
+        "start": 8,
+        "end": 20,
+        "scene": "따릉이 사진과 큰 숫자",
+        "caption": "3년 전 대비 1.5배",
+        "narration": "공공자전거 따릉이의 연간 이용 건수는 4,500만건입니다. 이 숫자는 실제 발표치가 아닌 실습용 가상 데이터입니다."
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "scene": "과거와 현재 비교 차트",
+        "caption": "수치 비교",
+        "narration": "3년 전과 비교하면 1.5배입니다. 3년 전 이용 건수는 약 3,000만건으로 계산됩니다."
+      },
+      {
+        "start": 32,
+        "end": 44,
+        "scene": "자료 검증 체크리스트",
+        "caption": "해석과 의미",
+        "narration": "우리 생활과 이어지는 숫자죠. 가상 통계대로라면 3년 사이 이용 횟수가 변했다는 뜻입니다. 하지만 이 숫자만으로 이용 이유까지 설명할 수는 없습니다."
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "scene": "가상 데이터 고지",
+        "caption": "출처 확인 전 보도 보류",
+        "narration": "왜 늘거나 줄었는지는 확인되지 않았습니다. 실제 기사로 쓰려면 운영기관의 원자료부터 대조해야 합니다."
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "scene": "한 줄 요약 카드",
+        "caption": "한 줄 정리 · 가상 통계",
+        "narration": "한 줄 정리. 따릉이 이용은 3년 전의 1.5배라는 가상 통계입니다."
+      }
+    ],
+    "isFictional": true,
+    "releaseStatus": "HOLD",
+    "sourceVerified": false,
+    "rightsVerified": false,
+    "approved": false
+  },
+  {
+    "story": "lunch",
+    "duration": 60,
+    "style": "daily",
+    "topic": "직장인 점심값",
+    "topicTitle": "직장인 평균 점심값",
+    "styleName": "생활 밀착",
+    "values": {
+      "price": 11000,
+      "increase": 32
+    },
+    "stat": "11,000|원",
+    "subtitle": "5년 전 대비 32% 올랐",
+    "charts": [
+      {
+        "name": "5년 전",
+        "value": 8333.333333333332,
+        "label": "8,333원"
+      },
+      {
+        "name": "현재",
+        "value": 11000,
+        "label": "11,000원"
+      }
+    ],
+    "oneLine": "한 줄 정리. 점심값 11,000원, 5년 전보다 32퍼센트 올랐습니다 단, 가상 수치입니다.",
+    "segments": [
+      {
+        "start": 0,
+        "end": 8,
+        "scene": "직장인 점심시간 풍경",
+        "caption": "직장인 점심값",
+        "narration": "점심 먹고 계산할 때, 가격이 부담스럽다고 느끼시나요?"
+      },
+      {
+        "start": 8,
+        "end": 20,
+        "scene": "점심 메뉴와 가격 자막",
+        "caption": "5년 전 대비 32% 올랐",
+        "narration": "직장인 평균 점심값은 11,000원입니다. 이 수치는 실제 조사 결과가 아닌 가상 데이터입니다."
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "scene": "5년 전과 현재 비교 차트",
+        "caption": "수치 비교",
+        "narration": "5년 전보다 32퍼센트 올랐습니다 5년 전 점심값은 약 8,333원으로 계산됩니다."
+      },
+      {
+        "start": 32,
+        "end": 44,
+        "scene": "조사 범위 표시",
+        "caption": "해석과 의미",
+        "narration": "우리 생활과 이어지는 숫자죠. 계산상 5년 전과의 차이는 약 2,667원입니다. 다만 식당 종류나 조사 방식은 아직 확인되지 않았습니다."
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "scene": "원출처 확인 안내",
+        "caption": "출처 확인 전 보도 보류",
+        "narration": "어느 지역의 어떤 직장인을 조사했는지가 중요합니다. 출처 확인 전에는 실제 물가 기사로 보도하면 안 됩니다."
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "scene": "한 줄 요약 카드",
+        "caption": "한 줄 정리 · 가상 통계",
+        "narration": "한 줄 정리. 점심값 11,000원, 5년 전보다 32퍼센트 올랐습니다 단, 가상 수치입니다."
+      }
+    ],
+    "isFictional": true,
+    "releaseStatus": "HOLD",
+    "sourceVerified": false,
+    "rightsVerified": false,
+    "approved": false
+  },
+  {
+    "story": "culture",
+    "duration": 60,
+    "style": "daily",
+    "topic": "공연 관람 20대 비율",
+    "topicTitle": "20대 공연 관람객 비율",
+    "styleName": "생활 밀착",
+    "values": {
+      "share": 41
+    },
+    "stat": "41|%",
+    "subtitle": "관람객 중 20대 41%",
+    "charts": [
+      {
+        "name": "20대",
+        "value": 41,
+        "label": "41%"
+      },
+      {
+        "name": "그 외",
+        "value": 59,
+        "label": "59%"
+      }
+    ],
+    "oneLine": "한 줄 정리. 20대 비율 41퍼센트, 역대 최고라는 가상 조건입니다.",
+    "segments": [
+      {
+        "start": 0,
+        "end": 8,
+        "scene": "공연장 외관 또는 저작권 확인된 이미지",
+        "caption": "공연 관람 20대 비율",
+        "narration": "요즘 공연장, 20대 관객은 얼마나 될까요?"
+      },
+      {
+        "start": 8,
+        "end": 20,
+        "scene": "20대 비율 큰 숫자",
+        "caption": "관람객 중 20대 41%",
+        "narration": "국내 공연 관람객 중 20대 비율은 41퍼센트입니다. 오늘 사용하는 수치는 가상 데이터입니다."
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "scene": "연령 비중 그래픽",
+        "caption": "수치 비교",
+        "narration": "이 비율이 역대 최고라는 조건입니다. 다만 비교 대상 기간과 과거 연도별 수치는 제공되지 않았습니다."
+      },
+      {
+        "start": 32,
+        "end": 44,
+        "scene": "집계 기준 확인",
+        "caption": "해석과 의미",
+        "narration": "우리 생활과 이어지는 숫자죠. 20대 비중이 눈에 띄는 가상 사례입니다. 어떤 장르에서 높은지, 관람객을 어떻게 집계했는지는 별도 자료가 필요합니다."
+      },
+      {
+        "start": 44,
+        "end": 53,
+        "scene": "과거 자료 검증 안내",
+        "caption": "출처 확인 전 보도 보류",
+        "narration": "역대 최고라는 표현은 과거 자료를 모두 비교해야 확인할 수 있습니다. 원출처 검증 전 실제 보도를 보류합니다."
+      },
+      {
+        "start": 53,
+        "end": 60,
+        "scene": "한 줄 요약 카드",
+        "caption": "한 줄 정리 · 가상 통계",
+        "narration": "한 줄 정리. 20대 비율 41퍼센트, 역대 최고라는 가상 조건입니다."
+      }
+    ],
+    "isFictional": true,
+    "releaseStatus": "HOLD",
+    "sourceVerified": false,
+    "rightsVerified": false,
+    "approved": false
+  }
+]
