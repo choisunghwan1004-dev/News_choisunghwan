@@ -4,7 +4,7 @@ Windows 10/11 (64비트)용 데이터 저널리즘 교육 및 뉴스 제작 프�
 
 ## 실행 방법
 
-1. 전체 프로젝트를 다운로드하고 압축을 해제합니다.
+1. GitHub **Actions → Build Windows NewsStudio → 최신 성공 작업 → Artifacts**에서 `News_choisunghwan_Windows`를 다운로드하고 압축을 해제합니다.
 2. `01_뉴스스튜디오_실행.bat` 또는 `DataJournalism_NewsStudio.exe`를 실행합니다.
 3. 로컬 브라우저에서 통계·시각화, 뉴스 빅데이터, 웹 크롤링, AI 모델 학습, 뉴스 자동화, 뉴스 원고 제작을 사용합니다.
 
@@ -25,7 +25,7 @@ Windows 10/11 (64비트)용 데이터 저널리즘 교육 및 뉴스 제작 프�
 - `demo/`, `samples/` : 교육용 가상 데이터와 예시
 - `tests/` : 핵심 로직 및 화면 전환 회귀 테스트
 - `original/` : 업로드받은 교육용 Jupyter 노트북의 보존본
-- `backup_v1/` : 초기 뉴스 스튜디오 백업
+- 초기 Windows 실행 패키지 백업은 기존 `News_choi` 저장소에 보존 (새 저장소에는 제외)
 - `docs/` : 기능 설명, 검증 결과, 저널리즘 원칙
 
 ## 개발·테스트
@@ -42,6 +42,9 @@ Windows 10/11 (64비트)용 데이터 저널리즘 교육 및 뉴스 제작 프�
 - **경량 텍스트 분류는 GPU/LLM 파인튜닝이 아닙니다.** 원본 GPU 실습에는 추가 환경이 필요합니다.
 - `original/`에는 별도 저작권이 있을 수 있는 학습자료가 있으므로, 외부 공개 전에 재배포 권한을 확인하세요. 우선 **Private 저장소**를 권장합니다.
 
-## GitHub 업로드
+## GitHub 등록 현황
 
-`GITHUB_SETUP_KR.md` 참고. 이 패키지는 업로드 준비본이며, 현재 GitHub 업로드가 완료된 상태를 의미하지 않습니다.
+- 이 저장소가 새 이름의 **공식 소스 저장소**입니다: `choisunghwan1004-dev/News_choisunghwan`.
+- 실행파일은 `.github/workflows/windows-build.yml`을 통해 Windows에서 빌드한 뒤 Actions의 Artifacts에 ZIP으로 제공됩니다. 워크플로 성공 여부를 확인한 후 다운로드하세요.
+- 기존 `News_choi` 저장소는 삭제하지 않은 백업입니다. 초기 EXE 및 이전 ZIP도 그곳에 남아 있습니다.
+- 이 저장소는 **공개(Public)** 상태입니다. 원본 교육자료 재배포 권한 확인이 필요합니다.
